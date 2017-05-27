@@ -4,13 +4,13 @@ s = input('Sequence1:').upper()
 n = len(s)
 for i in range(n):
     while s[i] not in alphabet:
-        s= input('Ты написал какую-то дичь, напиши нормульную Sequence1:')
+        s= input('Please try again - Sequence1:')
         
 t = input('Sequence2:').upper()
 m = len(t)
 for i in range(m):
     while t[i] not in alphabet:
-        s= input('Ты снова написал какую-то дичь, напиши нормульную Sequence2:')
+        s= input('Please try again - Sequence2:')
 p = []
 way = []
 
